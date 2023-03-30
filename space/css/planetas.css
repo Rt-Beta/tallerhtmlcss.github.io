@@ -1,0 +1,39 @@
+body {
+background-color: rgb(0, 0, 0);
+    font-family:cursive;
+    font-size:25px;
+    background-image: url('/img/atmosfera.jpg');
+  }
+  
+  h1 {
+    color: rgb(255, 255, 255);
+  }
+
+  p {
+    color: white;
+  }
+
+  .entrada {
+    transform: translateX(100%); 
+    animation: entrada 1s ease forwards; 
+ }
+ 
+ @keyframes entrada {
+    to {
+       transform: translateX(0); 
+    }
+ }
+ 
+ .fade-in {
+  opacity: 0;
+  animation: fadeIn 1s ease-in-out forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

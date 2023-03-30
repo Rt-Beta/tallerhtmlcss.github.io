@@ -1,0 +1,43 @@
+.fade-in {
+  opacity: 0;
+  animation: fadeIn 1s ease-in-out forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+  
+  .aparecer {
+    animation-name: aparecer;
+    animation-duration: 1s;
+  }
+
+body {
+        font-family:cursive;
+        font-size:26px;
+        background-image: url('/img/atmosfera.jpg');
+      }
+    
+
+  .tituloSistema {
+    text-align: center;
+    animation: normal;
+  }
+  
+  h1, h2 {
+    color: white;
+    text-align: center;
+  }
+  
+  ul {
+    color: white;
+    text-align: center;
+    list-style: none;
+  }
+  
